@@ -1,4 +1,4 @@
-import { ButtonPrimary, ContainerYourVehicles, ContentCard, HeaderHome } from "@/components";
+import { ButtonPrimary, ContainerYourVehicles, ContentCard, HeaderHome, OptionYourRed } from "@/components";
 
 export default function Home() {
   return (
@@ -22,7 +22,13 @@ export default function Home() {
             <p className="font-semibold text-2xl">Movimientos vehículos</p>
           </ContentCard>
           <ContentCard className="col-span-3 row-span-6">
-            <p className="font-semibold text-2xl">Tu red Simon</p>
+            <p className="font-semibold text-2xl mb-4">Tu red Simon</p>
+            <OptionYourRed/>
+            <hr className="border border-dark-200 my-2"/>
+            <OptionYourRed/>
+            <hr className="border border-dark-200 my-2"/>
+            <OptionYourRed/>
+            <hr className="border border-dark-200 my-2"/>
           </ContentCard>
           <ContentCard className="col-span-6 row-span-6">
             <p className="font-semibold text-2xl">Calcula tu viaje</p>
