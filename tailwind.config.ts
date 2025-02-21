@@ -10,6 +10,7 @@ export default {
     extend: {
       colors: {
         primary: "#00F1C7",
+        "primary-hover": "#00f1c9c5",
         dark: {
           0: "#000000",
           100: "#1B1B1B",

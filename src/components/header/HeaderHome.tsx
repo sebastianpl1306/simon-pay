@@ -10,13 +10,13 @@ export const HeaderHome = () => {
             <Image src={'/logo.svg'} width={160} height={25} alt="logo"/>
             <div className="flex items-center">
                 <NavbarHome/>
-                <Button className="ml-4">
+                <Button className="ml-4 hover:border-orange-500">
                     <IoSettingsSharp size={20}/>
                 </Button>
-                <Button className="ml-4">
+                <Button className="ml-4 hover:border-orange-500">
                     <IoNotifications size={20}/>
                 </Button>
-                <Image src={'/avatar.jpg'} width={50} height={50} className="rounded-full ml-4" alt="avatar"/>
+                <Image src={'/avatar.jpg'} width={50} height={50} className="rounded-full ml-4 hover:border-2 hover:border-orange-500" alt="avatar"/>
             </div>
         </div>
     </header>

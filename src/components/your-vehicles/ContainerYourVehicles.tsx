@@ -5,7 +5,7 @@ import { InfoContainerYourVehicles } from "./InfoContainerYourVehicles"
 
 export const ContainerYourVehicles = () => {
   return (
-    <ContentCard className="col-span-9 row-span-6">
+    <ContentCard className="col-span-9 row-span-7">
         <div className="grid grid-cols-12">
             <SelectYourVehicles/>
             <div className="col-span-8">

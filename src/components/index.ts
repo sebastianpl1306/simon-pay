@@ -3,5 +3,6 @@ export * from './ui';
 export * from './content-cards';
 export * from './your-vehicles';
 export * from './your-red';
+export * from './vehicle-movements';
 
 export * from './FormAuth';
