@@ -1,4 +1,4 @@
-import { ButtonPrimary, ContentCard, HeaderHome, SelectYourVehicles } from "@/components";
+import { ButtonPrimary, ContainerYourVehicles, ContentCard, HeaderHome } from "@/components";
 
 export default function Home() {
   return (
@@ -13,11 +13,7 @@ export default function Home() {
           <ButtonPrimary>Recargar Saldo</ButtonPrimary>
         </div>
         <div className="grid grid-cols-12 grid-rows-12 gap-4 my-8">
-          <ContentCard className="col-span-9 row-span-6">
-            <div className="grid grid-cols-12">
-              <SelectYourVehicles/>
-            </div>
-          </ContentCard>
+          <ContainerYourVehicles/>
           <ContentCard className="col-span-3 row-span-2 text-end">
             <p className="font-semibold text-base">Tu saldo disponible</p>
             <p className="font-semibold text-6xl text-primary">$50.000</p>
