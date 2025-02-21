@@ -1,6 +1,6 @@
 interface Props {
-    children: React.ReactNode,
-    className?: string;
+  children: React.ReactNode,
+  className?: string;
 }
 
 export const Button = ({ children, className }: Props) => {
