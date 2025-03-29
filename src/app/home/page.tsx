@@ -35,13 +35,13 @@ export default function HomePage() {
             </div>
             </ContentCard>
             <ContentCard className="col-span-3 row-span-5">
-            <p className="font-semibold text-2xl mb-4">Tu red Simon</p>
-            <OptionYourRed/>
-            <hr className="border border-dark-200 my-2"/>
-            <OptionYourRed/>
-            <hr className="border border-dark-200 my-2"/>
-            <OptionYourRed/>
-            <hr className="border border-dark-200 my-2"/>
+                <p className="font-semibold text-2xl mb-4">Tu red Simon</p>
+                <OptionYourRed/>
+                <hr className="border border-dark-200 my-2"/>
+                <OptionYourRed/>
+                <hr className="border border-dark-200 my-2"/>
+                <OptionYourRed/>
+                <hr className="border border-dark-200 my-2"/>
             </ContentCard>
             <ContentCard className="col-span-6 row-span-5">
             <p className="font-semibold text-2xl mb-4">Calcula tu viaje</p>
